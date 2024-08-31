@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(223, 238, 255);
+}
+
+.title{
+    font-size: 2.5em;
+    color: rgb(9, 72, 206);
+}
+
+.title-cards{
+    font-size: 2em;
+    color: rgb(9, 72, 206);
+}
+
+.fotos{
+    width: 300px;
+    height: 300px;
+}
+
+.subtitle{
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: rgb(160, 200, 247);
+    border: 2px solid rgb(0, 38, 255);
+}
+
+.seccion{
+    background-color: rgb(199, 222, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal{
+    font-size: 4.5em;
+}
+
+#titulos{
+        /* viewport width */
+        width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

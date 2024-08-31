@@ -4,59 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
     <header>
-        <h1>Este es el título principal de mi página web</h1>
-
-        <span>HOME</span>
-        <span>NOTICIAS</span>
-        <span>CLIMA</span>
-    </header>
-
-    <main>
-
-        <img src="./mp-logo.png" />
+        <div id="titulos">
+            <h1 class="title" id="principal">Esta es mi pagina web como artista</h1>
+            <h2 class="title">DARO EZEQUIEL</h2> 
+        </div>
         
-        <section> 
-        <h2>Este es un título de una sección de noticias</h2>
-            
+    </header>
+    <main>
             <article>
-
-            <h3>Esta es la noticia N°1</h3>
-                <div>
-                    <p>Este sera el primer parrafo de mi noticia: </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
-                elit. Quas perspiciatis quidem animi officia doloribus culpa temporibus nobis praesentium sequi distinctio autem odit quibusdam eaque ducimus, facilis non optio expedita consectetur.</p>
+                <div class="subtitle">
+                    <h3 class="title">¿Quien soy?</h3>     
+                    <p>Soy programador, musico y escritor.</p>
                 </div>
             </article>
-            
-            <hr />
+            <br>    
 
             <article>
+            <div class="seccion">
+                <h3 class="title">Mis Fotos</h3>
+            </div>    
+                
+            <div id="cards-container">
 
-            <h3>Esta es la noticia N°2</h3>
-                <p>Este es un listado de cosas importantes</p>
-                <ol>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ol>
-
-            </article>
-
-            <hr />
-
-            <article>
-
-            <h3>Esta es la noticia N°3</h3>
-                <p>Este es un listado de cosas importantes sin orden</p>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-
+                <div class="cards">
+                    <h4 class="title-cards">Tocando</h4>
+                    <img src="tocando1.png" class="fotos" />
+                </div>
+                <div class="cards">
+                    <h4 class="title">Tocando</h4>
+                    <img src="tocando2.png" class="fotos" />
+                </div>
+                <div class="cards">
+                    <h4 class="title">Selfie</h4>
+                    <img src="selfie.jpg" class="fotos" />
+                </div>
+            </div>
             </article>
 
         </section>
@@ -64,8 +51,8 @@
 
     <footer>
 
-        <p>Este es el footer de mi pagina. Ahora voy a poner unos enlaces.</p>
-        <a href="./form-contacto.html">Formulario de Contacto</a>
+        <p>Dejame tu contacto <a href="./form-contacto.html">aqui</a></p>
+        
     </footer>
 
 </body>
